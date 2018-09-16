@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "importHelpers": true,
+    "pretty": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "outDir": "build/main"
+  },
+  "include": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "build",
+    "node_modules",
+    "tests",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.test.js",
+    "**/*.test.jsx"
+  ]
+}

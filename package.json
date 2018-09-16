@@ -1,0 +1,15 @@
+{
+  "name": "deltacalc",
+  "version": "0.1",
+  "main": "index.js",
+  "author": "Daniel Reed <danielreedme@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "yarn run build:main && node build/main/index.js",
+    "build": "yarn run build:main",
+    "build:main": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@types/node": "^10.9.4"
+  }
+}
